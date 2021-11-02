@@ -1,0 +1,14 @@
+{
+  "name": "Share link to telegram",
+  "description": "Share links with your friends via telegram",
+  "version": "0.1",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "https://api.telegram.org/*"
+   ],
+  "background": {
+    "scripts": ["main.js"]
+  },
+  "manifest_version": 2
+}
